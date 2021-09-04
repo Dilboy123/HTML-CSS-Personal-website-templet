@@ -1,0 +1,124 @@
+body{
+  text-align: center;
+   background-color: rgb(255, 255, 255); 
+}
+
+a{
+    color: #c9ccbe;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline brown;
+}
+
+.top-container{
+   color: black;
+    
+}
+.middle-container{
+    font-family: 'Allison', cursive;
+    color: #526897;
+   
+}
+.bottom-container{
+    font-family: 'Pacifico', cursive;
+    background-color: #a2aaee;
+    padding: 60px 0px 20px;
+}
+img{
+    width: 300px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    max-width: 120px;
+    left: 300px;
+    bottom: 450px;
+}
+
+.top-cloud{
+    max-width: 100px;
+    padding-top: 100px;
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.top-container-font{
+    font-family: 'Dancing Script', cursive;
+    color: #ecb12f;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+    line-height: 2;
+}
+img-mountain{
+    position: relative;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.code-skill{
+    width: 25%;
+    float: left;
+    margin-right: 50px;
+}
+.logic-skill{
+    width: 25%;
+    float: right;
+    margin-right: 50px;
+}
+.clear-one{
+    clear: left;
+}
+.clear-two{
+    clear: right;
+}
+hr{
+    color: rgb(243, 158, 132);
+    border-style: dotted none none;
+    height: 0px;
+    width: 5%;
+    border-width: 8px;
+    margin: 100px auto 100px auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px;
+}
+
+.btn {
+	box-shadow: -5px 3px 3px 0px #ddedf0;
+	background:linear-gradient(to bottom, #dcf084 5%, #c9ccbe 100%);
+	background-color:#dcf084;
+	border-radius:31px;
+	border:3px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#c2366e;
+	font-family: 'Dancing Script', cursive;
+	font-size:20px;
+	font-weight:bold;
+	font-style:italic;
+	padding:20px 37px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2f6627;
+    margin: 100px auto;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #c9ccbe 5%, #dcf084 100%);
+	background-color:#c9ccbe;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.copyright{
+    color: #526897;
+    font-size: 0.75rem;
+}
